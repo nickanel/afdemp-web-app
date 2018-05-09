@@ -31,5 +31,10 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+
+        public ActtionResult Paparia2()
+        {
+            return View();
+        }
     }
 }
