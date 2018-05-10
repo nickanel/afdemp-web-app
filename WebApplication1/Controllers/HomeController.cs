@@ -19,6 +19,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+        public ActionResult About2teo()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
 
         public ActionResult Contact()
         {
